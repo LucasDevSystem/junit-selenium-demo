@@ -23,6 +23,7 @@ public class GoogleTest {
     @BeforeEach
     public void setUp() {
         // Indica onde está o driver do firefox
+        // substituir pelo seu diretorio absoluto
         System.setProperty("webdriver.gecko.driver", "/Users/mac/Fonts/selenium-junit-demo/selenium-demo/geckodriver");
 
         driver = new FirefoxDriver();
